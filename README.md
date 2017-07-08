@@ -1,1 +1,1 @@
-# ScriberHive
+# ScribersHive
