@@ -14,8 +14,24 @@ Rebuild the frontend and use the Wordpress API to GET and POST blog data.
 
 ## Tech
 
-## Wireframes
+We're using:
++ [SASS](http://sass-lang.com/guide)
++ ...
 
+### Installation
+
+Run `npm install` to install any node modules.
+
+Make sure you have [SASS](http://sass-lang.com/install) installed. If you're on a MAC:
+
+`gem install sass`
+
+Build the CSS file:
+`npm run sass-watch`
+
+Now anytime you update style.scss you'll get a new style.css built.
+
+## Wireframes
 
 ## Style Guide
 
