@@ -1,0 +1,34 @@
+@mixin category-page-title {
+  font-family: $helvetica;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-xx-large;
+  color: $yellow;
+}
+
+@mixin sub-heading ($color) {
+  font-family: $helvetica;
+  font-weight: $font-weight-light;
+  font-size: $font-size-x-large;
+  color: $color;
+}
+
+@mixin article-heading ($color) {
+  font-family: $playfair;
+  font-weight: $font-weight-regular;
+  font-size: $font-size-large;
+  color: $color;
+}
+
+@mixin article-text ($color) {
+  font-family: $merriwether;
+  font-weight: $font-weight-regular;
+  font-size: $font-size-regular;
+  color: $color;
+}
+
+@mixin link {
+  font-family: $helvetica;
+  font-weight: $font-weight-bold;
+  font-size: $font-size-small;
+  color: $blue;
+}
